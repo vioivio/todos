@@ -12,7 +12,13 @@ function Task(description) {
 
 const createTemplate = (task, index) => {
     return `
-        
+        <div class="todo-item">
+            <div class="description">${task.description}</div>
+            <div class="buttons">
+                <input class="btn-complete"
+                <button class="btn-delete>Delete</button>
+            </div>
+        </div>
     `
 }
 
@@ -31,4 +37,5 @@ const updateLocal =() => {
 addTaskBtn/addEventListener('click', () => {
     tasks.push(new Task(deskTaskInput.value))
     updateLocal();
+    fillHtmlList();
 })
