@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+body {
+    margin: 0;
+    font-family: "Poppins",serif;
+    font-weight: 400;
+}
+.h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+.flex-wrapper {
+    text-align: center;
+}
+.add-todo-wrapper {
+    display:flex;
+    justify-content: center;
+}
+.input-wrapper {
+}
+.button-wrapper {
+}
+.todos-wrapper {
+}
