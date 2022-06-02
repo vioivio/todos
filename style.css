@@ -26,6 +26,7 @@ button,
 textarea,
 select {
   font: inherit;
+  
 }
 .h1 {
     font-size: 70px;
@@ -39,7 +40,7 @@ select {
     display:flex;
     justify-content: center;
 }
-input {
+.input-task {
     min-width: 400px;
     height: 40px;
 }
@@ -53,5 +54,29 @@ button {
 h2 {
     font-size: 40px;
     margin-top: 30px;
+}
+.todos-wrapper {
+}
+.todo-item {
+    display: flex;
+    justify-content: center;
+}
+.descroption {
+}
+.buttons {
 
+}
+.btn-complete {
+    height: 40px;
+    width: 40px;
+}
+.btn-delete {
+}
+@keyframes opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
