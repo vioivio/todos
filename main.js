@@ -15,7 +15,7 @@ const createTemplate = (task, index) => {
         <div class="todo-item">
             <div class="description">${task.description}</div>
             <div class="buttons">
-                <input class="btn-complete"
+                <input class="btn-complete" type="checkbox" ${task.completed ? 'cheked' : ''}>
                 <button class="btn-delete>Delete</button>
             </div>
         </div>
